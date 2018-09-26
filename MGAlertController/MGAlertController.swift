@@ -65,7 +65,7 @@ public class MGAlertController: UIAlertController {
         let window = AlertWindow(frame: UIScreen.main.bounds)
         window.rootViewController = blankViewController
         window.backgroundColor = UIColor.clear
-        window.windowLevel = UIWindow.Level(UIWindow.Level.alert.rawValue + 1)
+        window.windowLevel = UIWindow.Level(UIWindowLevelAlert + 1)
         window.makeKeyAndVisible()
         alertWindow = window
         
