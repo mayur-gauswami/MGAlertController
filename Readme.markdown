@@ -1,6 +1,6 @@
 # MGAlertController
 
-A customised aler controller which can be used globally. It supports to show multiple alerts over windows.
+A customised alert controller which can be used globally. It supports to show multiple alerts over windows.
 
 ![Swift Version](https://img.shields.io/badge/swift-4.0-orange.svg)
 
